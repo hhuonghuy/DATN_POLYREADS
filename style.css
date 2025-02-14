@@ -87,10 +87,10 @@ p {
     color: #fff;
 }
 .custom-menu .custom-sreach-input {
-    flex: 0 0 65%; /* Phần tử đầu tiên chiếm 70% chiều rộng */
+    flex: 0 0 60%; 
 }
 .custom-menu .custom-nav {
-    flex: 0 0 55%; /* Phần tử thứ hai chiếm 30% chiều rộng */
+    flex: 0 0 45%; 
 }
 .favourite {
     width: 2rem;

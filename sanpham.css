@@ -1,0 +1,83 @@
+.san-pham,
+        .san-pham * {
+            box-sizing: border-box;
+        }
+        .san-pham {
+          display: flex;
+          padding-top: 30px;
+          /* flex-wrap: wrap; */
+          justify-content: space-between; 
+          align-items: flex-start;
+          gap: 15px;
+          background-color: #f9f9f9;
+          max-width: 1200px;
+        }
+        .san-pham-item {
+            display: flex;
+            flex-direction: column;
+           
+            width: 227px;
+            height: 436px;
+            background: #ffffff;
+            border-radius: 20px;
+            border: 0.25px solid #9a9797;
+            box-shadow: 5px 5px 4px 0px rgba(145, 127, 179, 1);
+            padding: 15px;
+        }
+        .san-pham-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+        }
+        .sach-title {
+            color: #000000;
+            text-align: left;
+            font-family: "Inter-Medium", sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+        .shop-name-price-old {
+            display: flex;
+            justify-content: space-between;
+            align-items: left;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .shop-name {
+            color: #000000;
+            text-align: right;
+            font-family: "Inter-Medium", sans-serif;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .price-old {
+            color: #a3a3a3;
+            text-align: left;
+            font-family: "Inter-Light", sans-serif;
+            font-size: 13px;
+            font-weight: 300;
+            text-decoration: line-through;
+        }
+        .price-current {
+            color: #fe6332;
+            text-align: left;
+            font-family: "Inter-Medium", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .add-to-cart {
+            color: #ff3a3a;
+            text-align: center;
+            font-family: "Inter-Medium", sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: auto;
+            padding: 10px;
+            width: 100%;
+            background-color: #fff;
+            border-top: 0.5px solid #000000;
+            border-radius: 0 0 20px 20px;
+        }

@@ -285,7 +285,6 @@ a {
 
 .line-banner {
     width: 100%;
-
     background: #917FB3;
     margin: 50px 0;
     display: flex;
@@ -389,12 +388,9 @@ footer {
 
     .line-banner {
         flex-direction: column;
+        display: none;
     }
 
-    .line-banner img {
-        width: 100%;
-        padding: 10px;
-    }
 
     .menu {
         flex-wrap: wrap;

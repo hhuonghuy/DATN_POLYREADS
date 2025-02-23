@@ -81,3 +81,89 @@
             border-top: 0.5px solid #000000;
             border-radius: 0 0 20px 20px;
         }
+
+.list-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust gap as needed */
+  padding-top: 15px;
+}
+
+.mobile-product {
+  width: 171.5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-family: "Inter-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-family: "Inter-Light", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #C92127;
+}
+
+.sale-badge {
+  background: #C92127;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.price-sold-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.product-old-price {
+  font-family: "Inter-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: line-through;
+  color: #666;
+}
+
+.product-sold {
+  font-family: "Inter-Light", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #666;
+}

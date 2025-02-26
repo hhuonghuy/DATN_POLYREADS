@@ -399,7 +399,7 @@ a {
 
 .line-banner {
     width: 100%;
-    background: #917FB3;
+    background: #f7f7f7;
     margin: 50px 0;
     display: flex;
     justify-content: center;
@@ -410,8 +410,7 @@ a {
 
 .line-banner img {
     padding: 15px 0;
-    width: 32%;
-    border-radius: 30px;
+    width: 100%;
 }
 
 .discount {

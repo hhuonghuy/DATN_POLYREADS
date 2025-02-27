@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     wrapper.style.transform = `translateX(-${scrollAmount}px)`;
   });
 });
+
 document.addEventListener("DOMContentLoaded", function () {
   const wrapper = document.querySelector(".products-wrapper2");
   const prevBtn = document.getElementById("prev2");
